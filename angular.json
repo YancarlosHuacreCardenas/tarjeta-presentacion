@@ -94,6 +94,10 @@
     }
   },
   "cli": {
+<<<<<<< HEAD
     "analytics": "5fbb3d7f-d346-4f10-bb08-7aaa5ab5261b"
+=======
+    "analytics": "17d2305f-9a3f-4b14-9401-260fedf1391f"
+>>>>>>> c8a1b5e (Subiendo proyecto Angular tarjeta-presentacion)
   }
 }
