@@ -6,3 +6,7 @@
 
 **Nombre de Curso:** ASE242_PFE
 PROGRAMACIÓN FRONT END
+
+```bash
+ng serve
+```
