@@ -1,0 +1,74 @@
+.tarjeta {
+  max-width: 380px;
+  margin: 40px auto;
+  padding: 30px 25px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  transition: background-color 0.4s ease;
+  text-align: center;
+}
+
+.foto {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #00acc1;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #007c91;
+}
+
+p {
+  margin: 6px 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+button {
+  margin: 12px 8px 0;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 30px;
+  background-color: #00acc1;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,172,193,0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #00838f;
+  box-shadow: 0 6px 14px rgba(0,131,143,0.6);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 8px;
+}
+
+ul li {
+  background-color: #e0f7fa;
+  margin: 4px 4px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #007c91;
+}
+
+div[ng-reflect-ng-if="true"] {
+  margin-top: 20px;
+  text-align: left;
+}

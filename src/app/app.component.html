@@ -1,0 +1,24 @@
+<div class="tarjeta" [style.backgroundColor]="colorFondo">
+  <!-- Imagen: puede ser desde assets o URL externa -->
+  <img src="https://i.ibb.co/5gDy1xPT/noswe.jpg" alt="Foto de perfil" class="foto" />
+
+  <h2>{{ nombre }}</h2>
+  <p><strong>Carrera:</strong> {{ carrera }}</p>
+  <p><strong>Edad:</strong> {{ edad }}</p>
+  <p><strong>Email:</strong> {{ correo }}</p>
+
+  <button (click)="toggleExtra()">
+    {{ mostrarInfoExtra ? 'Ocultar información extra' : 'Mostrar información extra' }}
+  </button>
+  <button (click)="cambiarColor()">Cambiar color</button>
+
+  <div *ngIf="mostrarInfoExtra">
+    <p><strong>Frase favorita:</strong> {{ fraseFavorita }}</p>
+    <p><strong>Hobbies:</strong> {{ hobbies.join(', ') }}</p>
+
+    <h4>Skills:</h4>
+    <ul>
+      <li *ngFor="let skill of skills">{{ skill }}</li>
+    </ul>
+  </div>
+</div>
